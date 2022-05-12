@@ -15,6 +15,14 @@ button {
     background-color: #3882F6;
 }
 
+.header,
+.information,
+.quote,
+.recruitment,
+.footer {
+    padding: 0 200px;
+} 
+
 
 
 
@@ -27,6 +35,7 @@ button {
 
 .header-top {
     display: flex;
+    margin: 20px 0;
 }
 
 .logo {
@@ -37,28 +46,61 @@ button {
 
 .header-links {
     display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-left: auto;
 }
 
-a,
+a, 
+.link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+.link,
 .header-text {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 200;
+    padding: 15px 0;
+}
+
+.header-text {
+    margin-right: 60px;
 }
 
 .header-bottom {
     display: flex;
+    margin: 100px 0;
+    justify-content: center;
 }
 
-.hero {
+h1 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
+    margin-right: 60px;
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
 
 .header-img {
-    width: 500px;
+    width: 700px;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
+
 
 * {
     
