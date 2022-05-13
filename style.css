@@ -102,6 +102,41 @@ button {
 }
 
 
+
+
+/*information*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 36px;
+    width: 900;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box img {
+    width: 200px;
+    height: 300px;
+}
+
+.box p {
+    
+}
+
+
+
 * {
     
 }
