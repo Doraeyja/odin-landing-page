@@ -153,6 +153,22 @@ h2 {
 }
 
 
+/*quote*/
+
+.quote {
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+}
+
+.quote h3 {
+    align-self: center;
+    text-align: center;
+}
+
+.quote p {
+    align-self: flex-end;
+}
 
 * {
     
