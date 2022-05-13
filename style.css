@@ -158,16 +158,24 @@ h2 {
 .quote {
    display: flex;
    flex-direction: column;
-   justify-content: center; 
+   justify-content: center;
+   background-color: #E5E7EB;
+   padding-top: 100px;
 }
 
 .quote h3 {
     align-self: center;
     text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote p {
     align-self: flex-end;
+    font-weight: bold;
+    padding-bottom: 80px;
 }
 
 * {
