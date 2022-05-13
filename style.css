@@ -76,6 +76,10 @@ a,
     justify-content: center;
 }
 
+.hero {
+    width: 400px;
+}
+
 h1 {
     color: #F9FAF8;
     font-weight: 900;
@@ -96,7 +100,7 @@ button {
 
 .header-img {
     width: 700px;
-    margin-left: auto;
+    /*margin-left: auto;*/
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
