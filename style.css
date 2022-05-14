@@ -201,3 +201,11 @@ h2 {
    margin-left: auto;
 }
 
+
+/*footer*/
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
+}
